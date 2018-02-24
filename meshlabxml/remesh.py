@@ -523,6 +523,10 @@ def voronoi(script, hole_num=50, target_layer=None, sample_layer=None, thickness
 
     return None
 
+def pure_triangular(script):
+    filter_xml = '  <filter name="Turn into a Pure-Triangular mesh"/>\n'
+    util.write_filter(script, filter_xml)
+    return None
 
 def solidify(script, thickness):
     pass

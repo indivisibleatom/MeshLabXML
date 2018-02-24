@@ -187,7 +187,7 @@ def duplicate_verts(script):
         2016.12
         1.3.4BETA
     """
-    filter_xml = '  <filter name="Remove Duplicated Vertex"/>\n'
+    filter_xml = '  <filter name="Remove Duplicate Vertices"/>\n'
     util.write_filter(script, filter_xml)
     return None
 
